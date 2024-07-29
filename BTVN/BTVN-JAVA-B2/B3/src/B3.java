@@ -8,7 +8,6 @@ public class B3 {
 
     int c1 = 0, c2 = n - 1, h1 = 0, h2 = n - 1, gt = 1;
     while(c1<=c2 &&h1<=h2)
-
     {
         for (int i = c1; i <= c2; i++) {
             a[h1][i] = gt;
