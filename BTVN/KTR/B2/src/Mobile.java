@@ -36,8 +36,9 @@ class Mobile extends Product {
     public void setMobile_ram(int mobile_ram) {
         this.mobile_ram = mobile_ram;
     }
+    @Override
     public Double getTotalPrice(){
-        return getTotalPrice() + 0,2*
+        return super.getTotalPrice()*1.2;
     }
     @Override
     public String toString() {
